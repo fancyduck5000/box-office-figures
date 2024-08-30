@@ -1,5 +1,7 @@
 # GitHub Codespaces ♥️ Jupyter Notebooks
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/fancyduck5000/box-office-figures?quickstart=1)
+
 Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
 
 You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
