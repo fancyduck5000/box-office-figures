@@ -33,14 +33,20 @@ If you try to run a cell of the notebook, you will be asked to select a kernel. 
 An access token is required to access the TMDB API. Steps to obtain this:
 1. [Create a TMDB account](https://www.themoviedb.org/signup)
 2. Go to https://www.themoviedb.org/settings/api
-3. Request access as a developer
-4. Fill in the form. All fields must be filled in. You can provide a link to this GitHub repo for the application link.
-5. Copy your Read Access Token
-6. In GitHub, click on your avatar in the top right hand corner
-7. Click on Settings
-8. Under Code, planning, and automation, click on Codespaces
-9. Create a new secret with the name "TMDB_READ_ACCESS_TOKEN". Paste your Read Access Token as the value.
-10. Under repository access, put "fancyduck5000/box-office-figures"
+3. In the Create tab, select Developer
+4. Read and accept the terms of use.
+5. Fill in the form:
+   Type of Use: Personal
+   Application Name: Box Office Figures
+   Application URL: https://github.com/fancyduck5000/box-office-figures
+   Application Summary: Personal analysis of BFI box office figures
+   Fill in your personal details and Submit
+7. Copy your Read Access Token
+8. In GitHub, click on your avatar in the top right hand corner
+9. Click on Settings
+10. Under Code, planning, and automation, click on Codespaces
+11. Create a new secret with the name "TMDB_READ_ACCESS_TOKEN". Paste your Read Access Token as the value.
+12. Under repository access, put "fancyduck5000/box-office-figures"
 
 Alternatively, if you cannot create an access token, you can view the output of a full notebook run in notebooks/Box_Office_Figures.html. This is best downloaded and viewed in a browser.
 
