@@ -5,6 +5,8 @@ I have produced a Jupyter notebook which loads data from [BFI's weekly box offic
 
 I have enhanced this data by extracting genre information from [The Movie Database (TMDB)](https://www.themoviedb.org/) API.
 
+It is written in Python and heavily utilises the pandas library. Step-by-step detail can be found as comments within the notebook. The notebook was developed in VSCode, in a GitHub Codespaces environment.
+
 ## Value
 - Prepares data in a format which analysts can easily use.
 - Can quickly load data from multiple files, allowing users to view data from across a large time period.
