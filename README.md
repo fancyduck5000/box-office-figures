@@ -13,6 +13,8 @@ I have enhanced this data by extracting genre information from [The Movie Databa
 ## Further Development
 - Extract more attributes from the TMDB API.
 - Improve the search API request. For example, some films are not found using the search request due to additional information in BFI's "Film" column. A first step would be to exclude anything in brackets from the request query.
+- Furthermore, the first result from the TMDB search may not always contain the correct data, so I would investigate how other attributes from the BFI files could be used to ensure an accurate TMDB search.
+- The notebook will currently create a new API call for every film in the dataframe, even if that film has already been searched for and the genres identified. I would improve this by utilising caching to store TMDB reasults/genres, minimising API calls.
 
 ## Instructions
 ### Codespaces setup
