@@ -16,7 +16,7 @@ It is written in Python and heavily utilises the pandas library. Step-by-step de
 - Extract more attributes from the TMDB API.
 - Improve the search API request. For example, some films are not found using the search request due to additional information in BFI's "Film" column. A first step would be to exclude anything in brackets from the request query.
 - Furthermore, the first result from the TMDB search may not always contain the correct data, so I would investigate how other attributes from the BFI files could be used to ensure an accurate TMDB search.
-- The notebook will currently create a new API call for every film in the dataframe, even if that film has already been searched for and the genres identified. I would improve this by utilising caching to store TMDB reasults/genres, minimising API calls.
+- The notebook will currently create a new API call for every film in the dataframe, even if that film has already been searched for and the genres identified. I would improve this by utilising caching to store TMDB results/genres, minimising API calls.
 
 ## Instructions
 ### Codespaces setup
@@ -27,7 +27,7 @@ Once you have created the Codespace, it will take a few minutes for the requirem
 
 The notebook can be found in /workspaces/box-office-figures/notebooks/Box_Office_Figures.ipynb
 
-If you try to run a cell of the notebook, you will be asked to select a kernel. Please select "Python Environments..." > "Python (version number)"
+If you try to run a cell of the notebook, you will be asked to select a kernel. Please select "Python Environments..." > "Python (version number)" \
 ![image](https://github.com/user-attachments/assets/2b5144fa-83e8-4ac5-a449-77f56be277f9)
 ![image](https://github.com/user-attachments/assets/23835940-7c81-4612-9322-df400902f00d)
 
