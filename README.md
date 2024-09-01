@@ -35,11 +35,11 @@ An access token is required to access the TMDB API. Steps to obtain this:
 2. Go to https://www.themoviedb.org/settings/api
 3. In the Create tab, select Developer
 4. Read and accept the terms of use.
-5. Fill in the form:
-   Type of Use: Personal
-   Application Name: Box Office Figures
-   Application URL: https://github.com/fancyduck5000/box-office-figures
-   Application Summary: Personal analysis of BFI box office figures
+5. Fill in the form:\
+   Type of Use: Personal\
+   Application Name: Box Office Figures\
+   Application URL: https://github.com/fancyduck5000/box-office-figures \
+   Application Summary: Personal analysis of BFI box office figures\
    Fill in your personal details and Submit
 7. Copy your Read Access Token
 8. In GitHub, click on your avatar in the top right hand corner
@@ -48,7 +48,7 @@ An access token is required to access the TMDB API. Steps to obtain this:
 11. Create a new secret with the name "TMDB_READ_ACCESS_TOKEN". Paste your Read Access Token as the value.
 12. Under repository access, put "fancyduck5000/box-office-figures"
 
-Alternatively, if you cannot create an access token, you can view the output of a full notebook run in notebooks/Box_Office_Figures.html. This is best downloaded and viewed in a browser.
+**Alternatively, if you do not want to create an access token, you can view the output of a full notebook run in notebooks/Box_Office_Figures.html. This is best downloaded and viewed in a browser.**
 
 
 
